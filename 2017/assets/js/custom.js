@@ -234,7 +234,7 @@ $(window).on('load', function() {
 		loop:true,
 		margin:15,
 		nav:false,
-		dots: false,
+		dots: false, 
 		responsive:{
 			0:{
 				items:1
@@ -248,10 +248,7 @@ $(window).on('load', function() {
 			1100:{
 				items:4
 			}
-		},
-        autoplay:true,
-        autoplayTimeout:1000,
-        autoplayHoverPause:true
+		}
 	});
 
 	//Event Post Carousel

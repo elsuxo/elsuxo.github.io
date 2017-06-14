@@ -58,7 +58,7 @@ Table of Contents End
 
 /* 1 - Google Font 
 ******************************************************/
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 /* 1 - Google Font 
 ******************************************************/
 
@@ -87,9 +87,8 @@ a:before,
 	        transition: all .25s ease;
 }
 a {
-	/*color: #6d8bad;*/
-	color: #f7931d;
-}
+	color: #6d8bad;
+}  
 a:focus,
 a:hover {
 	text-decoration: none;
@@ -111,8 +110,7 @@ a:focus{
 	box-shadow: 0 0 7px 1px #ddd;
 }
 .section-title { 
-	/*color: #6d8bad;*/
-	color: #f7931d;
+	color: #6d8bad;
 	font-size: 2.3125em;
 	margin-top: 0;
 	padding-bottom: 15px;
@@ -857,11 +855,10 @@ a:focus{
 	width: 160px;
 	height: 160px;
 	border-radius: 100%;
-	/*background: -webkit-linear-gradient(top, #ffffff, #2e9f58);  */
-	/*background: -moz-linear-gradient(top, #ffffff, #2e9f58);  */
-	/*background: -o-linear-gradient(top, #ffffff, #2e9f58); */
-	/*background: linear-gradient(top, #ffffff, #2e9f58); */
-	background: #f7931d;
+	background: -webkit-linear-gradient(top, #ffffff, #2e9f58);  
+	background: -moz-linear-gradient(top, #ffffff, #2e9f58);  
+	background: -o-linear-gradient(top, #ffffff, #2e9f58); 
+	background: linear-gradient(top, #ffffff, #2e9f58); 
 	z-index: 0;
 	position: relative; 
 }
@@ -871,9 +868,9 @@ a:focus{
 	right: 5px;
 	bottom: 5px;
 	content: "";
-	position: absolute;
+	position: absolute; 
 	background: #ffffff;
-	/*border:5px solid #69a780; */
+	border:5px solid #69a780; 
 	border-radius: 100%;
 	z-index: -1;
 }
@@ -3246,27 +3243,3 @@ article.news-container  .entry {
 	box-shadow: rgba(0, 0, 0, 0.3) 20px 20px 20px;
 }
 /* Registration Form End */
-
-
-/* Sponsoren Page
-******************************************************/
-.sponsor-container .post-thumbnail .entry-meta {
-	position: absolute;
-	color: #ffffff;
-	bottom: 0;
-	left: 0;
-	background: #f7931d;
-	padding: 0 60px;
-	text-transform: uppercase;
-}
-.sponsor-container .entry-date .money {
-	font-size: 48px;
-	font-weight: 800;
-}
-
-/* 25 - Sponsoren Page End
-******************************************************/
-
-.sponsor-werden p {
-	padding-bottom: 20px;
-}
