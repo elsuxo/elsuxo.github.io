@@ -654,12 +654,9 @@ a:focus{
 .top-slider-container .video-link .icon {
 	font-size: 40px;
 	position: relative;
-	top: 8px;
-	/*-webkit-transition: all .25s ease;*/
-	/*-moz-transition: all .25s ease;*/
-	/*-ms-transition: all .25s ease;*/
-	/*-o-transition: all .25s ease;*/
-	/*transition: all .25s ease;*/
+	top: 10px;
+	left: 122px;
+	color: white;
 }
 .top-slider-container.v2 .video-link:hover .icon {
 	color : #69a780;
@@ -3395,6 +3392,7 @@ article.news-container  .entry {
 	}
 	.top-slider-container .video-link {
 		display: block;
+		padding-top: 20px;
 	}
 }
 @media (max-width: 480px) { 

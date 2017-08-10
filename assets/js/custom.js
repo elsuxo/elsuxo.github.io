@@ -63,7 +63,9 @@ $(window).on('load', function() {
 				$(this).css({'height' : windowHeight-100}) ;
 				$('.top-slider-container.v2 .overlay').css({'height' : windowHeight}) ;
 			});
-			var topPadding = (windowHeight-420)/2;
+			// var topPadding = (windowHeight-420)/2;
+			var topPadding = (windowHeight-620)/2;
+			console.log(topPadding);
 			if(topPadding>100) {
 				$('.top-section .image-container, .top-section .overlay').css({'padding-top':topPadding});
 				$('.top-slider-container.v2 .overlay').css({'padding-top':topPadding + 80});
